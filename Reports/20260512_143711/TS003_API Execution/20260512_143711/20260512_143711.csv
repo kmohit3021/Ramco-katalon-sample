@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS003_API Execution,,,,12-05-2026 14:37:13,12-05-2026 14:37:15,2.152s,PASSED
+,,,,,,,
+Test Cases/API/Fake Store API/TC001_Obtain JWT tokens,,https://fakeapi.platzi.com/en/rest/auth-jwt/,GenAI,12-05-2026 14:37:13,12-05-2026 14:37:15,1.207s,PASSED
+"response = sendRequest(findTestObject(""API/OR_Fake Store API/Auth with JWT"", [""loc_Email"":""john@mail.com"", ""loc_Password"":""changeme""]))",,,,12-05-2026 14:37:13,12-05-2026 14:37:14,1.039s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,12-05-2026 14:37:14,12-05-2026 14:37:14,0.006s,PASSED
+"access_token = getElementPropertyValue(response, ""access_token"")",,,,12-05-2026 14:37:14,12-05-2026 14:37:14,0.018s,PASSED
+"println(""Token: "" + access_token)",,,,12-05-2026 14:37:14,12-05-2026 14:37:14,0.002s,PASSED
+G_ACCESS_TOKEN = access_token,,,,12-05-2026 14:37:14,12-05-2026 14:37:14,0.014s,PASSED
+"refresh_token = getElementPropertyValue(response, ""refresh_token"")",,,,12-05-2026 14:37:14,12-05-2026 14:37:15,0.007s,PASSED
+"println(""Refresh Token: "" + refresh_token)",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.001s,PASSED
+G_REFRESH_TOKEN = refresh_token,,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.001s,PASSED
+,,,,,,,
+Test Cases/API/Fake Store API/TC002_Retrieving user with session,,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.299s,PASSED
+"response = sendRequest(findTestObject(""API/OR_Fake Store API/Get user with session"", [""access_token"":G_ACCESS_TOKEN]))",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.241s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.002s,PASSED
+"verifyElementPropertyValue(response, ""email"", ""john@mail.com"")",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.014s,PASSED
+"verifyElementPropertyValue(response, ""password"", ""changeme"")",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.008s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""Jhon"")",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.008s,PASSED
+"verifyElementPropertyValue(response, ""role"", ""customer"")",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.007s,PASSED
+,,,,,,,
+Test Cases/API/Fake Store API/TC002_Retrieving User Profile,,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.297s,PASSED
+"response = sendRequest(findTestObject(""API/OR_Fake Store API/User Profile"", [""access_token"":G_ACCESS_TOKEN]))",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.242s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.003s,PASSED
+"verifyElementPropertyValue(response, ""email"", ""john@mail.com"")",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.012s,PASSED
+"verifyElementPropertyValue(response, ""password"", ""changeme"")",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.009s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""Jhon"")",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.008s,PASSED
+"verifyElementPropertyValue(response, ""role"", ""customer"")",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.006s,PASSED
+,,,,,,,
+Test Cases/API/Fake Store API/TC003_Refreshing Access Token,,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.283s,PASSED
+"response = sendRequest(findTestObject(""API/OR_Fake Store API/Post Refreshing Access Token"", [""ref_token"":G_REFRESH_TOKEN]))",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.237s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.003s,PASSED
+"access_token = getElementPropertyValue(response, ""access_token"")",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.010s,PASSED
+"println(""Token: "" + access_token)",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.001s,PASSED
+G_ACCESS_TOKEN = access_token,,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.000s,PASSED
+"refresh_token = getElementPropertyValue(response, ""refresh_token"")",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.009s,PASSED
+"println(""Refresh Token: "" + refresh_token)",,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.001s,PASSED
+G_REFRESH_TOKEN = refresh_token,,,,12-05-2026 14:37:15,12-05-2026 14:37:15,0.000s,PASSED

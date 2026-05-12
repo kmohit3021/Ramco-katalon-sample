@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/TSC001_Parallel and Sequencial Execution",
+  "name": "TSC001_Parallel and Sequencial Execution",
+  "reportFolder": "/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150817/TSC001_Parallel and Sequencial Execution/20260512_150817",
+  "startTime": 1778578701851,
+  "endTime": 1778578798764,
+  "totalPassedTestCases": "2",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "2",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}

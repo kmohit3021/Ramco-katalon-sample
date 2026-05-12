@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS003_API Execution" time="2.135" tests="4" passed="4" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="TS003_API Execution" tests="4" passed="4" failures="0" errors="0" incompleted="0" skipped="0" time="2.135" timestamp="2026-05-12T09:07:13.753Z" hostname="mohit - 192.168.29.170" id="Test Suites/TS003_API Execution" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_143711/TS003_API Execution/20260512_143711"/>
+         <property name="logFiles" value="/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_143711/TS003_API Execution/20260512_143711/execution0.log, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_143711/TS003_API Execution/20260512_143711/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="mohit - 192.168.29.170"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.1.3.0"/>
+         <property name="userFullName" value="Mohit Kumar"/>
+         <property name="hostAddress" value="192.168.29.170"/>
+         <property name="projectName" value="Ramco-katalon-sample"/>
+      </properties>
+      <testcase name="Test Cases/API/Fake Store API/TC001_Obtain JWT tokens" time="1.207" classname="Test Cases/API/Fake Store API/TC001_Obtain JWT tokens" status="PASSED">
+         <system-out><![CDATA[12-05-2026T14:37:13 - [TEST_CASE][PASSED] - Test Cases/API/Fake Store API/TC001_Obtain JWT tokens: Test Cases/API/Fake Store API/TC001_Obtain JWT tokens
+
+12-05-2026T14:37:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/OR_Fake Store API/Auth with JWT", ["loc_Email":"john@mail.com", "loc_Password":"changeme"])): Send request successfully
+
+12-05-2026T14:37:14 - [MESSAGE][INFO] - HAR: /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_143711/TS003_API Execution/20260512_143711/requests/main/Auth-with-JWT_0.har
+
+12-05-2026T14:37:14 - [MESSAGE][INFO] - cURL Command:
+curl \
+  --location \
+  --request POST \
+  --data '{"email":"john@mail.com","password":"changeme"}' \
+  --header 'Content-Type: application/json' \
+  --header 'Accept: application/json' \
+  'https://api.escuelajs.co/api/v1/auth/login'
+
+12-05-2026T14:37:14 - [MESSAGE][PASSED] - Send request successfully
+
+12-05-2026T14:37:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+12-05-2026T14:37:14 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-05-2026T14:37:14 - [TEST_STEP][PASSED] - access_token = getElementPropertyValue(response, "access_token"): null
+
+12-05-2026T14:37:14 - [TEST_STEP][PASSED] - println("Token: " + access_token): null
+
+12-05-2026T14:37:14 - [TEST_STEP][PASSED] - G_ACCESS_TOKEN = access_token: null
+
+12-05-2026T14:37:14 - [TEST_STEP][PASSED] - refresh_token = getElementPropertyValue(response, "refresh_token"): null
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - println("Refresh Token: " + refresh_token): null
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - G_REFRESH_TOKEN = refresh_token: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/Fake Store API/TC002_Retrieving user with session" time="0.299" classname="Test Cases/API/Fake Store API/TC002_Retrieving user with session" status="PASSED">
+         <system-out><![CDATA[12-05-2026T14:37:15 - [TEST_CASE][PASSED] - Test Cases/API/Fake Store API/TC002_Retrieving user with session: Test Cases/API/Fake Store API/TC002_Retrieving user with session
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/OR_Fake Store API/Get user with session", ["access_token":G_ACCESS_TOKEN])): Send request successfully
+
+12-05-2026T14:37:15 - [MESSAGE][INFO] - HAR: /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_143711/TS003_API Execution/20260512_143711/requests/main/Get-user-w...session_1.har
+
+12-05-2026T14:37:15 - [MESSAGE][INFO] - cURL Command:
+curl \
+  --location \
+  --header 'Accept: application/json' \
+  --header 'Content-Type: application/json' \
+  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3NjgzNCwiZXhwIjoxNzgwMzA0ODM0fQ.C2zAYcGqvNpobQgndONCkyYQTDbo53Cl37IidMV6WwU' \
+  'https://api.escuelajs.co/api/v1/auth/profile'
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Send request successfully
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "email", "john@mail.com"): Verify element property value successfully
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "changeme"): Verify element property value successfully
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "Jhon"): Verify element property value successfully
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "role", "customer"): Verify element property value successfully
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/Fake Store API/TC002_Retrieving User Profile" time="0.297" classname="Test Cases/API/Fake Store API/TC002_Retrieving User Profile" status="PASSED">
+         <system-out><![CDATA[12-05-2026T14:37:15 - [TEST_CASE][PASSED] - Test Cases/API/Fake Store API/TC002_Retrieving User Profile: Test Cases/API/Fake Store API/TC002_Retrieving User Profile
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/OR_Fake Store API/User Profile", ["access_token":G_ACCESS_TOKEN])): Send request successfully
+
+12-05-2026T14:37:15 - [MESSAGE][INFO] - HAR: /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_143711/TS003_API Execution/20260512_143711/requests/main/User-Profile_2.har
+
+12-05-2026T14:37:15 - [MESSAGE][INFO] - cURL Command:
+curl \
+  --location \
+  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3NjgzNCwiZXhwIjoxNzgwMzA0ODM0fQ.C2zAYcGqvNpobQgndONCkyYQTDbo53Cl37IidMV6WwU' \
+  'https://api.escuelajs.co/api/v1/auth/profile'
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Send request successfully
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "email", "john@mail.com"): Verify element property value successfully
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "password", "changeme"): Verify element property value successfully
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "Jhon"): Verify element property value successfully
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "role", "customer"): Verify element property value successfully
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/Fake Store API/TC003_Refreshing Access Token" time="0.283" classname="Test Cases/API/Fake Store API/TC003_Refreshing Access Token" status="PASSED">
+         <system-out><![CDATA[12-05-2026T14:37:15 - [TEST_CASE][PASSED] - Test Cases/API/Fake Store API/TC003_Refreshing Access Token: Test Cases/API/Fake Store API/TC003_Refreshing Access Token
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/OR_Fake Store API/Post Refreshing Access Token", ["ref_token":G_REFRESH_TOKEN])): Send request successfully
+
+12-05-2026T14:37:15 - [MESSAGE][INFO] - HAR: /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_143711/TS003_API Execution/20260512_143711/requests/main/Post-Refr...s-Token_3.har
+
+12-05-2026T14:37:15 - [MESSAGE][INFO] - cURL Command:
+curl \
+  --location \
+  --request POST \
+  --data '{"refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3NjgzNCwiZXhwIjoxNzc4NjEyODM0fQ.46RbqUkHcqLKmc9rUHcwHczK6HTbKZF5ZoGaiGs8Dpc"}' \
+  --header 'Content-Type: application/json' \
+  'https://api.escuelajs.co/api/v1/auth/refresh-token'
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Send request successfully
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+12-05-2026T14:37:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - access_token = getElementPropertyValue(response, "access_token"): null
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - println("Token: " + access_token): null
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - G_ACCESS_TOKEN = access_token: null
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - refresh_token = getElementPropertyValue(response, "refresh_token"): null
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - println("Refresh Token: " + refresh_token): null
+
+12-05-2026T14:37:15 - [TEST_STEP][PASSED] - G_REFRESH_TOKEN = refresh_token: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-05-2026T14:37:13 - [TEST_SUITE][PASSED] - TS003_API Execution: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

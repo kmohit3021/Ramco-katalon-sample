@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS007_Database and UI validations,Chrome 148.0.7778.97,,,12-05-2026 15:50:26,12-05-2026 15:50:47,21.667s,ERROR
+,,,,,,,
+Test Cases/Database/DBMS/DBMS GUI to DB verification,Chrome 148.0.7778.97,,,12-05-2026 15:50:26,12-05-2026 15:50:47,20.937s,ERROR
+globalConnection = ,Chrome 148.0.7778.97,,,12-05-2026 15:50:26,12-05-2026 15:50:26,0.005s,PASSED
+rs = ,Chrome 148.0.7778.97,,,12-05-2026 15:50:26,12-05-2026 15:50:26,0.003s,PASSED
+"openBrowser("""")",Chrome 148.0.7778.97,,,12-05-2026 15:50:26,12-05-2026 15:50:30,3.850s,PASSED
+"navigateToUrl(""https://www.w3schools.com/html/html_tables.asp"")",Chrome 148.0.7778.97,,,12-05-2026 15:50:30,12-05-2026 15:50:32,2.002s,PASSED
+maximizeWindow(),Chrome 148.0.7778.97,,,12-05-2026 15:50:32,12-05-2026 15:50:33,0.425s,PASSED
+globalConnection = com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(),Chrome 148.0.7778.97,,,12-05-2026 15:50:33,12-05-2026 15:50:33,0.264s,PASSED
+"rs = com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery(globalConnection, ""select * from katalontesttable"")",Chrome 148.0.7778.97,,,12-05-2026 15:50:33,12-05-2026 15:50:33,0.091s,PASSED
+"out.println(""Result Set----->>"" + rs)",Chrome 148.0.7778.97,,,12-05-2026 15:50:33,12-05-2026 15:50:33,0.025s,PASSED
+rowno = com.katalon.plugin.keyword.connection.ResultSetKeywords.getRowCount(rs),Chrome 148.0.7778.97,,,12-05-2026 15:50:33,12-05-2026 15:50:33,0.037s,PASSED
+"out.println(""Row count----->>"" + rowno)",Chrome 148.0.7778.97,,,12-05-2026 15:50:33,12-05-2026 15:50:33,0.007s,PASSED
+colno = com.katalon.plugin.keyword.connection.ResultSetKeywords.getColumnCount(rs),Chrome 148.0.7778.97,,,12-05-2026 15:50:33,12-05-2026 15:50:33,0.014s,PASSED
+"out.println(""Column count----->>"" + colno)",Chrome 148.0.7778.97,,,12-05-2026 15:50:33,12-05-2026 15:50:33,0.004s,PASSED
+"rowValue = com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleRowValue(rs, 2)",Chrome 148.0.7778.97,,,12-05-2026 15:50:33,12-05-2026 15:50:33,0.017s,PASSED
+"out.println(""Row value----->>"" + rowValue)",Chrome 148.0.7778.97,,,12-05-2026 15:50:33,12-05-2026 15:50:33,0.005s,PASSED
+"for ([i = 1, i <= rowno, (i++)])",Chrome 148.0.7778.97,,,12-05-2026 15:50:33,12-05-2026 15:50:47,13.521s,ERROR

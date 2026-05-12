@@ -1,0 +1,55 @@
+2026-05-12 14:35:30.393 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/org.eclipse.osgi/150/0/.cp/resources/logback/logback-execution.xml
+2026-05-12 14:35:30.394 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/mohit/git/Ramco-katalon-sample/Include/config/log.properties
+2026-05-12 14:35:30.621 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS002_Smoke Test for HealthCare
+2026-05-12 14:35:30.650 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Mohit Kumar
+2026-05-12 14:35:30.650 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Ramco-katalon-sample
+2026-05-12 14:35:30.651 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = mohit - 192.168.29.170
+2026-05-12 14:35:30.651 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-05-12 14:35:30.651 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.29.170
+2026-05-12 14:35:30.651 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.3.0
+2026-05-12 14:35:30.688 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-12 14:35:30.688 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HealthCare/TC001_CureHealthCare
+2026-05-12 14:35:30.791 DEBUG testcase.TC001_CureHealthCare            - 1: openBrowser("")
+2026-05-12 14:35:30.861 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-12 14:35:30.863 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-features=SafeBrowsing,PasswordLeakToggleMove, --disable-notifications]']
+2026-05-12 14:35:30.863 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-05-12 14:35:30.875 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-12 14:35:32.947 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 00b1b3863da5d538c3e35a68a9a3d9d2
+2026-05-12 14:35:32.948 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.97
+2026-05-12 14:35:32.948 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-12 14:35:32.948 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-12 14:35:32.951 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-12 14:35:32.967 DEBUG testcase.TC001_CureHealthCare            - 2: maximizeWindow()
+2026-05-12 14:35:33.367 DEBUG testcase.TC001_CureHealthCare            - 3: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2026-05-12 14:35:36.426 DEBUG testcase.TC001_CureHealthCare            - 4: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/h3_We Care About Your Health"))
+2026-05-12 14:35:36.725 DEBUG testcase.TC001_CureHealthCare            - 5: verifyElementText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/h3_We Care About Your Health"), "We Care About Your Health")
+2026-05-12 14:35:36.954 DEBUG testcase.TC001_CureHealthCare            - 6: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/a_btn-make-appointment"))
+2026-05-12 14:35:38.610 DEBUG testcase.TC001_CureHealthCare            - 7: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/input_Username"))
+2026-05-12 14:35:38.865 DEBUG testcase.TC001_CureHealthCare            - 8: setText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/input_Username_1"), "John Doe")
+2026-05-12 14:35:39.426 DEBUG testcase.TC001_CureHealthCare            - 9: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/input_Password"))
+2026-05-12 14:35:39.676 DEBUG testcase.TC001_CureHealthCare            - 10: setEncryptedText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/input_Password_1"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2026-05-12 14:35:39.940 DEBUG testcase.TC001_CureHealthCare            - 11: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/button_btn-login"))
+2026-05-12 14:35:40.648 DEBUG testcase.TC001_CureHealthCare            - 12: delay(2)
+2026-05-12 14:35:42.668 DEBUG testcase.TC001_CureHealthCare            - 13: selectOptionByValue(findTestObject("CureHealthCare/Page_CURA Healthcare Service/select_Facility"), "Hongkong CURA Healthcare Center", false)
+2026-05-12 14:35:43.144 DEBUG testcase.TC001_CureHealthCare            - 14: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/input_Apply for hospital readmission"))
+2026-05-12 14:35:43.390 DEBUG testcase.TC001_CureHealthCare            - 15: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/input_radio_program_medicaid"))
+2026-05-12 14:35:43.636 DEBUG testcase.TC001_CureHealthCare            - 16: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/input_dd_mm_yyyy"))
+2026-05-12 14:35:43.888 DEBUG testcase.TC001_CureHealthCare            - 17: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/td_12"))
+2026-05-12 14:35:44.345 DEBUG testcase.TC001_CureHealthCare            - 18: setText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/textarea_Comment"), "Test Demo")
+2026-05-12 14:35:45.027 DEBUG testcase.TC001_CureHealthCare            - 19: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/button_btn-book-appointment"))
+2026-05-12 14:35:45.274 DEBUG testcase.TC001_CureHealthCare            - 20: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/label_Facility"))
+2026-05-12 14:35:45.972 DEBUG testcase.TC001_CureHealthCare            - 21: verifyElementText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/label_Facility"), "Facility")
+2026-05-12 14:35:46.189 DEBUG testcase.TC001_CureHealthCare            - 22: verifyElementText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/p_Facility"), "Hongkong CURA Healthcare Center")
+2026-05-12 14:35:46.408 DEBUG testcase.TC001_CureHealthCare            - 23: verifyElementText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/label_Apply for hospital readmission"), "Apply for hospital readmission")
+2026-05-12 14:35:46.627 DEBUG testcase.TC001_CureHealthCare            - 24: verifyElementText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/p_Apply for hospital readmission"), "Yes")
+2026-05-12 14:35:46.847 DEBUG testcase.TC001_CureHealthCare            - 25: verifyElementText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/label_Healthcare Program"), "Healthcare Program")
+2026-05-12 14:35:47.064 DEBUG testcase.TC001_CureHealthCare            - 26: verifyElementText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/p_Healthcare Program"), "Medicaid")
+2026-05-12 14:35:47.282 DEBUG testcase.TC001_CureHealthCare            - 27: verifyElementText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/label_Comment"), "Comment")
+2026-05-12 14:35:47.501 DEBUG testcase.TC001_CureHealthCare            - 28: verifyElementText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/p_Comment"), "Test Demo")
+2026-05-12 14:35:47.720 DEBUG testcase.TC001_CureHealthCare            - 29: verifyElementText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/label_Visit Date"), "Visit Date")
+2026-05-12 14:35:47.938 DEBUG testcase.TC001_CureHealthCare            - 30: verifyElementText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/p_Visit Date"), "12/05/2026")
+2026-05-12 14:35:48.157 DEBUG testcase.TC001_CureHealthCare            - 31: closeBrowser()
+2026-05-12 14:35:48.257 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HealthCare/TC001_CureHealthCare
+2026-05-12 14:35:48.268 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-05-12 14:35:48.268 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS002_Smoke Test for HealthCare
+2026-05-12 14:35:48.268 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

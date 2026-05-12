@@ -1,0 +1,61 @@
+2026-05-12 14:53:09.649 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/org.eclipse.osgi/150/0/.cp/resources/logback/logback-execution.xml
+2026-05-12 14:53:09.650 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/mohit/git/Ramco-katalon-sample/Include/config/log.properties
+2026-05-12 14:53:09.860 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/HybridTestSuite/Sample test execuition for Two Web Application
+2026-05-12 14:53:09.887 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Mohit Kumar
+2026-05-12 14:53:09.887 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Ramco-katalon-sample
+2026-05-12 14:53:09.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = mohit - 192.168.29.170
+2026-05-12 14:53:09.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-05-12 14:53:09.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.29.170
+2026-05-12 14:53:09.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.3.0
+2026-05-12 14:53:09.922 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-12 14:53:09.922 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HealthCare/TC002_CureHealthCare - First Web Application
+2026-05-12 14:53:10.016 DEBUG 2_CureHealthCare - First Web Application - 1: openBrowser("")
+2026-05-12 14:53:10.086 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-12 14:53:10.088 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-features=SafeBrowsing,PasswordLeakToggleMove, --disable-notifications]']
+2026-05-12 14:53:10.088 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-05-12 14:53:10.100 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-12 14:53:12.015 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4a4d122760db9882d6385b306b3ef3ba
+2026-05-12 14:53:12.016 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.97
+2026-05-12 14:53:12.016 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-12 14:53:12.016 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-12 14:53:12.019 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-12 14:53:12.034 DEBUG 2_CureHealthCare - First Web Application - 2: maximizeWindow()
+2026-05-12 14:53:12.429 DEBUG 2_CureHealthCare - First Web Application - 3: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2026-05-12 14:53:15.524 DEBUG 2_CureHealthCare - First Web Application - 4: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/h3_We Care About Your Health"))
+2026-05-12 14:53:15.824 DEBUG 2_CureHealthCare - First Web Application - 5: verifyElementText(findTestObject("CureHealthCare/Page_CURA Healthcare Service/h3_We Care About Your Health"), "We Care About Your Health")
+2026-05-12 14:53:16.051 DEBUG 2_CureHealthCare - First Web Application - 6: click(findTestObject("CureHealthCare/Page_CURA Healthcare Service/a_btn-make-appointment"))
+2026-05-12 14:53:16.608 DEBUG 2_CureHealthCare - First Web Application - 7: strUsername = getAttribute(findTestObject("CureHealthCare/Page_CURA Healthcare Service/input_Username"), "value")
+2026-05-12 14:53:17.060 DEBUG 2_CureHealthCare - First Web Application - 8: G_CureUsername = strUsername
+2026-05-12 14:53:17.076 DEBUG 2_CureHealthCare - First Web Application - 9: comment(strUsername)
+2026-05-12 14:53:17.081 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - John Doe
+2026-05-12 14:53:17.082 DEBUG 2_CureHealthCare - First Web Application - 10: strPassword = getAttribute(findTestObject("CureHealthCare/Page_CURA Healthcare Service/input_Password"), "value")
+2026-05-12 14:53:17.303 DEBUG 2_CureHealthCare - First Web Application - 11: G_CurePassword = strPassword
+2026-05-12 14:53:17.304 DEBUG 2_CureHealthCare - First Web Application - 12: comment(strPassword)
+2026-05-12 14:53:17.306 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - ThisIsNotAPassword
+2026-05-12 14:53:17.306 DEBUG 2_CureHealthCare - First Web Application - 13: closeBrowser()
+2026-05-12 14:53:17.398 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HealthCare/TC002_CureHealthCare - First Web Application
+2026-05-12 14:53:17.400 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-12 14:53:17.400 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OrangeHRM/TC003-Orange HRM Search - Second Web Application
+2026-05-12 14:53:17.409 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) ApplicationUrl = https://orange.katalon.com/web/index.php/auth/login
+2026-05-12 14:53:17.412 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) LoginUser = mohit.kumar
+2026-05-12 14:53:17.416 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) LoginPassword = ********
+2026-05-12 14:53:17.438 DEBUG ange HRM Search - Second Web Application - 1: openBrowser("")
+2026-05-12 14:53:17.439 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-12 14:53:17.439 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-features=SafeBrowsing,PasswordLeakToggleMove, --disable-notifications]']
+2026-05-12 14:53:17.440 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-05-12 14:53:17.441 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-12 14:53:18.553 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0cbdc7798fe125f1032e7b0b0550289e
+2026-05-12 14:53:18.554 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.97
+2026-05-12 14:53:18.554 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-12 14:53:18.554 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-12 14:53:18.555 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-12 14:53:18.563 DEBUG ange HRM Search - Second Web Application - 2: maximizeWindow(STOP_ON_FAILURE)
+2026-05-12 14:53:18.955 DEBUG ange HRM Search - Second Web Application - 3: navigateToUrl("https://orange.katalon.com/web/index.php/auth/login")
+2026-05-12 14:53:21.721 DEBUG ange HRM Search - Second Web Application - 4: setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Username"), G_CureUsername)
+2026-05-12 14:53:22.789 DEBUG ange HRM Search - Second Web Application - 5: setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Password"), G_CurePassword)
+2026-05-12 14:53:23.281 DEBUG ange HRM Search - Second Web Application - 6: click(findTestObject("OrangeHRM/Page_OrangeHRM/button_Login"))
+2026-05-12 14:53:24.113 DEBUG ange HRM Search - Second Web Application - 7: closeBrowser()
+2026-05-12 14:53:24.198 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OrangeHRM/TC003-Orange HRM Search - Second Web Application
+2026-05-12 14:53:24.210 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-05-12 14:53:24.210 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/HybridTestSuite/Sample test execuition for Two Web Application
+2026-05-12 14:53:24.210 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

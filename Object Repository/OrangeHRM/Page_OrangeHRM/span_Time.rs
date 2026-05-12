@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Time</name>
+   <tag></tag>
+   <elementGuidId>8ca6ee7d-464e-4f5a-afcc-c5b14c4a028c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = '/web/index.php/time/viewTimeModule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\/web\/index\.php\/time\/viewTimeModule&quot;] .oxd-main-menu-item--name</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Time&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b9cff330-a7a6-468f-b33b-ca988ac687a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-text oxd-text--span oxd-main-menu-item--name</value>
+      <webElementGuid>ac5f039f-b6f8-4c7f-b56f-f56d6e404710</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Time</value>
+      <webElementGuid>e495019f-7a73-45d1-bb05-aec09c761ac8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a7a7fa9b94f57d015ab3ccfddc237fcc</value>
+      <webElementGuid>8b0305f1-ff90-489f-a4b8-aa526b324757</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/web/index.php/time/viewTimeModule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      <webElementGuid>fee228e7-4f33-41f9-87c9-6bb5d12f5ec9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '/web/index.php/time/viewTimeModule']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      <webElementGuid>58b2e2fc-1f91-4d9c-a112-e8b7ee0190a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Time' or . = 'Time')]</value>
+      <webElementGuid>933cb9ed-6954-48d3-a7b6-0993e2ee244e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

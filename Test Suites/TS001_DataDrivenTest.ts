@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS001_DataDrivenTest</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>ad94f930-2319-4f5e-8bf3-721576fc8a89</testSuiteGuid>
+   <testCaseLink>
+      <guid>ab325bc1-ccb3-455d-b393-2c06502969c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OrangeHRM/TC002-Orange HRM Search - Datadriven Test</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bd7c88f4-e491-4d2a-9c5b-f2ce1c4b754f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Excel/Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>bd7c88f4-e491-4d2a-9c5b-f2ce1c4b754f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ApplicationUrl</value>
+         <variableId>ef1d0368-1145-4949-a9e6-a3556a7f9f40</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bd7c88f4-e491-4d2a-9c5b-f2ce1c4b754f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LoginUser</value>
+         <variableId>63d7462a-a289-442b-a763-88e7d6ab69f6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bd7c88f4-e491-4d2a-9c5b-f2ce1c4b754f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LoginPassword</value>
+         <variableId>389818c5-be1f-446d-9053-774696776bdf</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

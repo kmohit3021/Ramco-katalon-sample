@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004-Orange HRM Search - For API</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bd5f6e34-3d8e-459f-a182-ce4e84205ade</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>72352ec7-4f57-4748-bdb0-779c495a0389</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aebfd940-2710-46f9-bef0-e54cf10f004d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9783dd95-77d3-42fd-aa0c-5044b763e746</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://orange.katalon.com/web/index.php/auth/login'</defaultValue>
+      <description></description>
+      <id>72352ec7-4f57-4748-bdb0-779c495a0389</id>
+      <masked>false</masked>
+      <name>ApplicationUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'mohit.kumar'</defaultValue>
+      <description></description>
+      <id>aebfd940-2710-46f9-bef0-e54cf10f004d</id>
+      <masked>false</masked>
+      <name>LoginUser</name>
+   </variable>
+   <variable>
+      <defaultValue>'H0Q291REJi8mZmD6Fe3ZMw=='</defaultValue>
+      <description></description>
+      <id>9783dd95-77d3-42fd-aa0c-5044b763e746</id>
+      <masked>true</masked>
+      <name>LoginPassword</name>
+   </variable>
+</TestCaseEntity>

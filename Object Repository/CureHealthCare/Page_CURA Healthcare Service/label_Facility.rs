@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Facility</name>
+   <tag></tag>
+   <elementGuidId>3dacd700-4606-41db-8ce2-2d3399efe0e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@for = 'facility']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[for=&quot;facility&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Facility&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>7ce78e35-6071-466f-b7d4-ae3aa94a1f58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>facility</value>
+      <webElementGuid>e28b9528-107e-487e-8f7c-b0b6b15a7633</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Facility</value>
+      <webElementGuid>f0c373cf-3223-4a60-bab0-a684baf78aa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b1c4441a8206f1c91c3a7128847af006</value>
+      <webElementGuid>073bd7d2-6cfc-4b2f-9b0d-5b8cad8c06a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@for = 'facility']</value>
+      <webElementGuid>22dd652e-32df-49f0-856d-eb99ef9783d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@for = 'facility']</value>
+      <webElementGuid>82bb3e02-2823-4d15-90ee-e52dbae8b45f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Facility' or . = 'Facility')]</value>
+      <webElementGuid>adee0851-d077-45f1-a0a3-9785aed25878</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

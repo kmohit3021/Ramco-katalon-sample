@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC001_Parallel and Sequencial Execution" time="45.184" testsuitescount="2" testsuitespassed="2" testsuitesfailures="0" testsuiteserrors="0" testsuitesincompleted="0" testsuitesskipped="0" tests="2" passed="2" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="TS005a- Multi Profile and Browser 1" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0" time="27.18" timestamp="2026-05-12T09:35:37.184Z" hostname="mohit - 192.168.29.170" id="Test Suites/TS005a- Multi Profile and Browser 1" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531"/>
+         <property name="logFiles" value="/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/execution0.log, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/console0.log"/>
+         <property name="attachments" value="/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578543317.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578548591.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578550665.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578552523.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578555232.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578558082.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578561560.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578563758.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="mohit - 192.168.29.170"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.1.3.0"/>
+         <property name="browser" value="Chrome 148.0.7778.97"/>
+         <property name="userFullName" value="Mohit Kumar"/>
+         <property name="hostAddress" value="192.168.29.170"/>
+         <property name="sessionId" value="89764d4d65946c9fec6f9dd8f2a53a84"/>
+         <property name="projectName" value="Ramco-katalon-sample"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OrangeHRM/TC001-Orange HRM Search - Profile Usecase" time="27.131" classname="Test Cases/OrangeHRM/TC001-Orange HRM Search - Profile Usecase" status="PASSED">
+         <system-out><![CDATA[12-05-2026T15:05:37 - [TEST_CASE][PASSED] - Test Cases/OrangeHRM/TC001-Orange HRM Search - Profile Usecase: Test Cases/OrangeHRM/TC001-Orange HRM Search - Profile Usecase
+
+12-05-2026T15:05:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-05-2026T15:05:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-05-2026T15:05:37 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-features=SafeBrowsing,PasswordLeakToggleMove, --disable-notifications]']
+
+12-05-2026T15:05:37 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+12-05-2026T15:05:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-05-2026T15:05:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-05-2026T15:05:39 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+12-05-2026T15:05:40 - [MESSAGE][PASSED] - Current window maximized
+
+12-05-2026T15:05:40 - [TEST_STEP][PASSED] - navigateToUrl(G_URL): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+12-05-2026T15:05:43 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+12-05-2026T15:05:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578543317.png]]
+
+12-05-2026T15:05:44 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Username"), G_USR): Text 'Admin' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Username'
+
+12-05-2026T15:05:44 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Username'
+
+12-05-2026T15:05:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Password"), G_PWD): Text ****** has been set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Password'
+
+12-05-2026T15:05:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Password'
+
+12-05-2026T15:05:45 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/button_Login")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+12-05-2026T15:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+12-05-2026T15:05:46 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Admin")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Admin' is clicked on
+
+12-05-2026T15:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Admin' is clicked on
+
+12-05-2026T15:05:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578548591.png]]
+
+12-05-2026T15:05:49 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_oxd-input oxd-input-active"), "mohit kumar"): Text 'mohit kumar' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_oxd-input oxd-input-active'
+
+12-05-2026T15:05:50 - [MESSAGE][PASSED] - Text 'mohit kumar' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_oxd-input oxd-input-active'
+
+12-05-2026T15:05:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h5_System Users"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_System Users' is present
+
+12-05-2026T15:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_System Users' is present
+
+12-05-2026T15:05:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578550665.png]]
+
+12-05-2026T15:05:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h5_System Users"), "System Users"): Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_System Users' are matched.
+
+12-05-2026T15:05:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_System Users' are matched.
+
+12-05-2026T15:05:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h5_System Users"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_System Users' is present
+
+12-05-2026T15:05:51 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_System Users' is present
+
+12-05-2026T15:05:51 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/button_Search")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/button_Search' is clicked on
+
+12-05-2026T15:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/button_Search' is clicked on
+
+12-05-2026T15:05:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/span_No Records Found"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/span_No Records Found' is present
+
+12-05-2026T15:05:52 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/span_No Records Found' is present
+
+12-05-2026T15:05:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578552523.png]]
+
+12-05-2026T15:05:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/span_No Records Found"), "No Records Found"): Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/span_No Records Found' are matched.
+
+12-05-2026T15:05:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/span_No Records Found' are matched.
+
+12-05-2026T15:05:53 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Leave")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Leave' is clicked on
+
+12-05-2026T15:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Leave' is clicked on
+
+12-05-2026T15:05:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h5_Leave List"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_Leave List' is present
+
+12-05-2026T15:05:55 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_Leave List' is present
+
+12-05-2026T15:05:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578555232.png]]
+
+12-05-2026T15:05:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h5_Leave List"), "Leave List"): Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_Leave List' are matched.
+
+12-05-2026T15:05:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_Leave List' are matched.
+
+12-05-2026T15:05:55 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Time")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Time' is clicked on
+
+12-05-2026T15:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Time' is clicked on
+
+12-05-2026T15:05:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Select Employee"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Select Employee' is present
+
+12-05-2026T15:05:58 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Select Employee' is present
+
+12-05-2026T15:05:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578558082.png]]
+
+12-05-2026T15:05:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Select Employee"), "Select Employee"): Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Select Employee' are matched.
+
+12-05-2026T15:05:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Select Employee' are matched.
+
+12-05-2026T15:05:58 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/span_My Info")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_My Info' is clicked on
+
+12-05-2026T15:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_My Info' is clicked on
+
+12-05-2026T15:05:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Personal Details"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Personal Details' is present
+
+12-05-2026T15:06:01 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Personal Details' is present
+
+12-05-2026T15:06:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:06:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578561560.png]]
+
+12-05-2026T15:06:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Personal Details"), "Personal Details"): Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Personal Details' are matched.
+
+12-05-2026T15:06:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Personal Details' are matched.
+
+12-05-2026T15:06:02 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Maintenance")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Maintenance' is clicked on
+
+12-05-2026T15:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Maintenance' is clicked on
+
+12-05-2026T15:06:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Administrator Access"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Administrator Access' is present
+
+12-05-2026T15:06:03 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Administrator Access' is present
+
+12-05-2026T15:06:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:06:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS005a- Multi Profile and Browser 1/20260512_150531/1778578563758.png]]
+
+12-05-2026T15:06:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Administrator Access"), "Administrator Access"): Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Administrator Access' are matched.
+
+12-05-2026T15:06:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Administrator Access' are matched.
+
+12-05-2026T15:06:04 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+12-05-2026T15:06:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-05-2026T15:05:37 - [TEST_SUITE][PASSED] - TS005a- Multi Profile and Browser 1: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS002a-Smoke Test for OrangeHRM" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0" time="43.856" timestamp="2026-05-12T09:35:37.184Z" hostname="mohit - 192.168.29.170" id="Test Suites/TS002a-Smoke Test for OrangeHRM" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532"/>
+         <property name="logFiles" value="/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/execution0.log, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/console0.log"/>
+         <property name="attachments" value="/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578542628.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578547101.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578549055.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578550798.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578553161.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578555555.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578558366.png, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578560435.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="mohit - 192.168.29.170"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.1.3.0"/>
+         <property name="browser" value="Edge Chromium 147.0.3912.86"/>
+         <property name="userFullName" value="Mohit Kumar"/>
+         <property name="hostAddress" value="192.168.29.170"/>
+         <property name="sessionId" value="9190c3142f0c9b075b33e854f836b798"/>
+         <property name="projectName" value="Ramco-katalon-sample"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OrangeHRM/TC001-Orange HRM Search" time="43.807" classname="Test Cases/OrangeHRM/TC001-Orange HRM Search" status="PASSED">
+         <system-out><![CDATA[12-05-2026T15:05:37 - [TEST_CASE][PASSED] - Test Cases/OrangeHRM/TC001-Orange HRM Search: Test Cases/OrangeHRM/TC001-Orange HRM Search
+
+12-05-2026T15:05:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-05-2026T15:05:37 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+12-05-2026T15:05:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-05-2026T15:05:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-05-2026T15:05:39 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+12-05-2026T15:05:40 - [MESSAGE][PASSED] - Current window maximized
+
+12-05-2026T15:05:40 - [TEST_STEP][PASSED] - navigateToUrl("https://orange.katalon.com/web/index.php/auth/login"): Navigate to 'https://orange.katalon.com/web/index.php/auth/login' successfully
+
+12-05-2026T15:05:42 - [MESSAGE][PASSED] - Navigate to 'https://orange.katalon.com/web/index.php/auth/login' successfully
+
+12-05-2026T15:05:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578542628.png]]
+
+12-05-2026T15:05:43 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Username"), "mohit.kumar"): Text 'mohit.kumar' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Username'
+
+12-05-2026T15:05:44 - [MESSAGE][PASSED] - Text 'mohit.kumar' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Username'
+
+12-05-2026T15:05:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Password"), "H0Q291REJi8mZmD6Fe3ZMw=="): Text ****** has been set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Password'
+
+12-05-2026T15:05:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Password'
+
+12-05-2026T15:05:44 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/button_Login")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+12-05-2026T15:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+12-05-2026T15:05:45 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Admin")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Admin' is clicked on
+
+12-05-2026T15:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Admin' is clicked on
+
+12-05-2026T15:05:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578547101.png]]
+
+12-05-2026T15:05:48 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_oxd-input oxd-input-active"), "mohit kumar"): Text 'mohit kumar' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_oxd-input oxd-input-active'
+
+12-05-2026T15:05:48 - [MESSAGE][PASSED] - Text 'mohit kumar' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_oxd-input oxd-input-active'
+
+12-05-2026T15:05:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h5_System Users"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_System Users' is present
+
+12-05-2026T15:05:49 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_System Users' is present
+
+12-05-2026T15:05:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578549055.png]]
+
+12-05-2026T15:05:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h5_System Users"), "System Users"): Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_System Users' are matched.
+
+12-05-2026T15:05:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_System Users' are matched.
+
+12-05-2026T15:05:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h5_System Users"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_System Users' is present
+
+12-05-2026T15:05:49 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_System Users' is present
+
+12-05-2026T15:05:49 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/button_Search")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/button_Search' is clicked on
+
+12-05-2026T15:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/button_Search' is clicked on
+
+12-05-2026T15:05:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/span_No Records Found"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/span_No Records Found' is present
+
+12-05-2026T15:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/span_No Records Found' is present
+
+12-05-2026T15:05:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578550798.png]]
+
+12-05-2026T15:05:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/span_No Records Found"), "No Records Found"): Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/span_No Records Found' are matched.
+
+12-05-2026T15:05:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/span_No Records Found' are matched.
+
+12-05-2026T15:05:51 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Leave")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Leave' is clicked on
+
+12-05-2026T15:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Leave' is clicked on
+
+12-05-2026T15:05:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h5_Leave List"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_Leave List' is present
+
+12-05-2026T15:05:53 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_Leave List' is present
+
+12-05-2026T15:05:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578553161.png]]
+
+12-05-2026T15:05:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h5_Leave List"), "Leave List"): Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_Leave List' are matched.
+
+12-05-2026T15:05:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h5_Leave List' are matched.
+
+12-05-2026T15:05:53 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Time")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Time' is clicked on
+
+12-05-2026T15:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Time' is clicked on
+
+12-05-2026T15:05:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Select Employee"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Select Employee' is present
+
+12-05-2026T15:05:55 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Select Employee' is present
+
+12-05-2026T15:05:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578555555.png]]
+
+12-05-2026T15:05:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Select Employee"), "Select Employee"): Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Select Employee' are matched.
+
+12-05-2026T15:05:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Select Employee' are matched.
+
+12-05-2026T15:05:56 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/span_My Info")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_My Info' is clicked on
+
+12-05-2026T15:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_My Info' is clicked on
+
+12-05-2026T15:05:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Personal Details"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Personal Details' is present
+
+12-05-2026T15:05:58 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Personal Details' is present
+
+12-05-2026T15:05:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:05:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578558366.png]]
+
+12-05-2026T15:05:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Personal Details"), "Personal Details"): Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Personal Details' are matched.
+
+12-05-2026T15:05:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Personal Details' are matched.
+
+12-05-2026T15:05:58 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Maintenance")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Maintenance' is clicked on
+
+12-05-2026T15:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/span_Maintenance' is clicked on
+
+12-05-2026T15:05:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Administrator Access"), 10): Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Administrator Access' is present
+
+12-05-2026T15:06:00 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Administrator Access' is present
+
+12-05-2026T15:06:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+12-05-2026T15:06:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_150531/TS002a-Smoke Test for OrangeHRM/20260512_150532/1778578560435.png]]
+
+12-05-2026T15:06:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Administrator Access"), "Administrator Access"): Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Administrator Access' are matched.
+
+12-05-2026T15:06:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM/Page_OrangeHRM/h6_Administrator Access' are matched.
+
+12-05-2026T15:06:00 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+12-05-2026T15:06:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-05-2026T15:05:37 - [TEST_SUITE][PASSED] - TS002a-Smoke Test for OrangeHRM: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

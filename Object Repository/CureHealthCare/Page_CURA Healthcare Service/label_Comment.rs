@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Comment</name>
+   <tag></tag>
+   <elementGuidId>82c7fd07-c1a2-4fac-8dfb-311618d112bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@for = 'comment']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[for=&quot;comment&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Comment&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>488069f6-2456-4f99-bc84-2d68ba15ccd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>comment</value>
+      <webElementGuid>3dcc8f02-e2fc-455a-a21f-369f3332fe23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Comment</value>
+      <webElementGuid>6818cdc5-351d-430b-8042-499d512fe76b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-c86dc15f51657b95911da498cbbdb606</value>
+      <webElementGuid>8f6f1c3d-e7cd-402c-8f99-9d6f9cd2083b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@for = 'comment']</value>
+      <webElementGuid>b5dbb940-eebb-4f64-b0f9-6840bda95642</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@for = 'comment']</value>
+      <webElementGuid>3e68e249-e93a-49c1-b821-97c79f0bbc26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Comment' or . = 'Comment')]</value>
+      <webElementGuid>4eb86f66-b22a-4ee0-bed4-3cdf5d06a683</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Healthcare Program</name>
+   <tag></tag>
+   <elementGuidId>dbe80c0b-139b-459d-bafc-c5d85f234c04</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'program']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#program</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Medicaid&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>3a509da9-a349-428f-b6f4-021f623bf7e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>program</value>
+      <webElementGuid>dbc64285-e5e6-452e-8e02-71b99352f985</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Medicaid</value>
+      <webElementGuid>102d6093-aa6f-4b18-91b4-c81cafb77333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-26ec16d21f32a8f708160620831ec76a</value>
+      <webElementGuid>d6e21f66-8f46-4bb9-be8f-e422333d8d68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'program']</value>
+      <webElementGuid>32e4d47c-7ad9-4956-aeef-b36aa49955b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'program']</value>
+      <webElementGuid>3338d883-d5dc-4f59-98be-b0e3622c2984</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'program' and (text() = 'Medicaid' or . = 'Medicaid')]</value>
+      <webElementGuid>ef5cb80c-9cec-4d1f-9409-66802bad9fe5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

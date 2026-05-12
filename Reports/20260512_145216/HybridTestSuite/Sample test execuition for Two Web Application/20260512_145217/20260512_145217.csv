@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sample test execuition for Two Web Application,Chrome 148.0.7778.97,,,12-05-2026 14:52:19,12-05-2026 14:52:32,13.289s,FAILED
+,,,,,,,
+Test Cases/HealthCare/TC002_CureHealthCare - First Web Application,Chrome 148.0.7778.97,,,12-05-2026 14:52:19,12-05-2026 14:52:26,7.514s,PASSED
+"openBrowser("""")",Chrome 148.0.7778.97,,,12-05-2026 14:52:19,12-05-2026 14:52:21,2.123s,PASSED
+maximizeWindow(),Chrome 148.0.7778.97,,,12-05-2026 14:52:21,12-05-2026 14:52:22,0.391s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 148.0.7778.97,,,12-05-2026 14:52:22,12-05-2026 14:52:25,3.047s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/h3_We Care About Your Health""))",Chrome 148.0.7778.97,,,12-05-2026 14:52:25,12-05-2026 14:52:25,0.296s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/h3_We Care About Your Health""), ""We Care About Your Health"")",Chrome 148.0.7778.97,,,12-05-2026 14:52:25,12-05-2026 14:52:25,0.227s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/a_btn-make-appointment""))",Chrome 148.0.7778.97,,,12-05-2026 14:52:25,12-05-2026 14:52:26,0.550s,PASSED
+"strUsername = getAttribute(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/input_Username""), ""value"")",Chrome 148.0.7778.97,,,12-05-2026 14:52:26,12-05-2026 14:52:26,0.443s,PASSED
+G_CureUsername = strUsername,Chrome 148.0.7778.97,,,12-05-2026 14:52:26,12-05-2026 14:52:26,0.017s,PASSED
+comment(strUsername),Chrome 148.0.7778.97,,,12-05-2026 14:52:26,12-05-2026 14:52:26,0.007s,PASSED
+"strPassword = getAttribute(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/input_Password""), ""value"")",Chrome 148.0.7778.97,,,12-05-2026 14:52:26,12-05-2026 14:52:26,0.222s,PASSED
+G_CurePassword = strPassword,Chrome 148.0.7778.97,,,12-05-2026 14:52:26,12-05-2026 14:52:26,0.000s,PASSED
+comment(strPassword),Chrome 148.0.7778.97,,,12-05-2026 14:52:26,12-05-2026 14:52:26,0.002s,PASSED
+closeBrowser(),Chrome 148.0.7778.97,,,12-05-2026 14:52:26,12-05-2026 14:52:26,0.094s,PASSED
+,,,,,,,
+Test Cases/OrangeHRM/TC003-Orange HRM Search - Second Web Application,Chrome 148.0.7778.97,,,12-05-2026 14:52:26,12-05-2026 14:52:32,5.628s,FAILED
+"DATA BINDING - {""(Default) Appli..."":""https://orange.katalon.com/web/index.php/auth/login"",""(Default) Login..."":""********""}",,,,,,,
+"openBrowser("""")",Chrome 148.0.7778.97,,,12-05-2026 14:52:26,12-05-2026 14:52:28,1.160s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 148.0.7778.97,,,12-05-2026 14:52:28,12-05-2026 14:52:28,0.394s,PASSED
+"navigateToUrl(""https://orange.katalon.com/web/index.php/auth/login"")",Chrome 148.0.7778.97,,,12-05-2026 14:52:28,12-05-2026 14:52:31,2.829s,PASSED
+"setText(findTestObject(""OrangeHRM/Page_OrangeHRM/input_Username""), G_CureUsername)",Chrome 148.0.7778.97,,,12-05-2026 14:52:31,12-05-2026 14:52:32,1.064s,PASSED
+"setEncryptedText(findTestObject(""OrangeHRM/Page_OrangeHRM/input_Password""), G_CurePassword)",Chrome 148.0.7778.97,,,12-05-2026 14:52:32,12-05-2026 14:52:32,0.133s,FAILED

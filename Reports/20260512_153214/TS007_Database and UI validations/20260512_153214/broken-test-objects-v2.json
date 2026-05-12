@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//table[@id\u003d\u0027customers\u0027]/tbody/tr[2]/td[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260512_153214/TS007_Database and UI validations/20260512_153214/_XPATH.png"
+    }
+  ]
+}

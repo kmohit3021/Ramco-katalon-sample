@@ -1,0 +1,116 @@
+2026-05-12 15:05:36.916 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/org.eclipse.osgi/150/0/.cp/resources/logback/logback-execution.xml
+2026-05-12 15:05:36.917 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/mohit/git/Ramco-katalon-sample/Include/config/log.properties
+2026-05-12 15:05:36.918 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/org.eclipse.osgi/150/0/.cp/resources/logback/logback-execution.xml
+2026-05-12 15:05:36.919 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/mohit/git/Ramco-katalon-sample/Include/config/log.properties
+2026-05-12 15:05:37.163 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS005a- Multi Profile and Browser 1
+2026-05-12 15:05:37.162 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS002a-Smoke Test for OrangeHRM
+2026-05-12 15:05:37.191 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Mohit Kumar
+2026-05-12 15:05:37.191 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Mohit Kumar
+2026-05-12 15:05:37.191 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Ramco-katalon-sample
+2026-05-12 15:05:37.191 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Ramco-katalon-sample
+2026-05-12 15:05:37.192 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = mohit - 192.168.29.170
+2026-05-12 15:05:37.191 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = mohit - 192.168.29.170
+2026-05-12 15:05:37.192 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-05-12 15:05:37.192 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-05-12 15:05:37.192 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.29.170
+2026-05-12 15:05:37.192 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.29.170
+2026-05-12 15:05:37.193 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.3.0
+2026-05-12 15:05:37.192 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.3.0
+2026-05-12 15:05:37.233 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-12 15:05:37.233 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-12 15:05:37.233 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OrangeHRM/TC001-Orange HRM Search - Profile Usecase
+2026-05-12 15:05:37.233 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OrangeHRM/TC001-Orange HRM Search
+2026-05-12 15:05:37.362 DEBUG C001-Orange HRM Search - Profile Usecase - 1: openBrowser("")
+2026-05-12 15:05:37.361 DEBUG testcase.TC001-Orange HRM Search         - 1: openBrowser("")
+2026-05-12 15:05:37.455 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-12 15:05:37.458 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--disable-features=SafeBrowsing,PasswordLeakToggleMove, --disable-notifications]']
+2026-05-12 15:05:37.458 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+2026-05-12 15:05:37.476 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-12 15:05:37.454 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-05-12 15:05:37.477 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-12 15:05:39.664 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 89764d4d65946c9fec6f9dd8f2a53a84
+2026-05-12 15:05:39.664 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.97
+2026-05-12 15:05:39.665 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-12 15:05:39.665 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-12 15:05:39.669 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-12 15:05:39.692 DEBUG C001-Orange HRM Search - Profile Usecase - 2: maximizeWindow(STOP_ON_FAILURE)
+2026-05-12 15:05:39.710 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9190c3142f0c9b075b33e854f836b798
+2026-05-12 15:05:39.711 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.86
+2026-05-12 15:05:39.711 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-05-12 15:05:39.711 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-12 15:05:39.713 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-12 15:05:39.728 DEBUG testcase.TC001-Orange HRM Search         - 2: maximizeWindow(STOP_ON_FAILURE)
+2026-05-12 15:05:40.103 DEBUG C001-Orange HRM Search - Profile Usecase - 3: navigateToUrl(G_URL)
+2026-05-12 15:05:40.097 DEBUG testcase.TC001-Orange HRM Search         - 3: navigateToUrl("https://orange.katalon.com/web/index.php/auth/login")
+2026-05-12 15:05:42.614 DEBUG testcase.TC001-Orange HRM Search         - 4: takeScreenshot()
+2026-05-12 15:05:43.306 DEBUG C001-Orange HRM Search - Profile Usecase - 4: takeScreenshot()
+2026-05-12 15:05:43.423 DEBUG testcase.TC001-Orange HRM Search         - 5: setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Username"), "mohit.kumar")
+2026-05-12 15:05:44.162 DEBUG C001-Orange HRM Search - Profile Usecase - 5: setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Username"), G_USR)
+2026-05-12 15:05:44.031 DEBUG testcase.TC001-Orange HRM Search         - 6: setEncryptedText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Password"), "H0Q291REJi8mZmD6Fe3ZMw==")
+2026-05-12 15:05:44.299 DEBUG testcase.TC001-Orange HRM Search         - 7: click(findTestObject("OrangeHRM/Page_OrangeHRM/button_Login"))
+2026-05-12 15:05:44.752 DEBUG C001-Orange HRM Search - Profile Usecase - 6: setEncryptedText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Password"), G_PWD)
+2026-05-12 15:05:45.022 DEBUG C001-Orange HRM Search - Profile Usecase - 7: click(findTestObject("OrangeHRM/Page_OrangeHRM/button_Login"))
+2026-05-12 15:05:45.569 DEBUG testcase.TC001-Orange HRM Search         - 8: click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Admin"))
+2026-05-12 15:05:46.372 DEBUG C001-Orange HRM Search - Profile Usecase - 8: click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Admin"))
+2026-05-12 15:05:47.099 DEBUG testcase.TC001-Orange HRM Search         - 9: takeScreenshot()
+2026-05-12 15:05:48.328 DEBUG testcase.TC001-Orange HRM Search         - 10: setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_oxd-input oxd-input-active"), "mohit kumar")
+2026-05-12 15:05:48.589 DEBUG C001-Orange HRM Search - Profile Usecase - 9: takeScreenshot()
+2026-05-12 15:05:48.828 DEBUG testcase.TC001-Orange HRM Search         - 11: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h5_System Users"), 10)
+2026-05-12 15:05:49.054 DEBUG testcase.TC001-Orange HRM Search         - 12: takeScreenshot()
+2026-05-12 15:05:49.361 DEBUG testcase.TC001-Orange HRM Search         - 13: verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h5_System Users"), "System Users")
+2026-05-12 15:05:49.944 DEBUG C001-Orange HRM Search - Profile Usecase - 10: setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_oxd-input oxd-input-active"), "mohit kumar")
+2026-05-12 15:05:49.589 DEBUG testcase.TC001-Orange HRM Search         - 14: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h5_System Users"), 10)
+2026-05-12 15:05:49.805 DEBUG testcase.TC001-Orange HRM Search         - 15: click(findTestObject("OrangeHRM/Page_OrangeHRM/button_Search"))
+2026-05-12 15:05:50.072 DEBUG testcase.TC001-Orange HRM Search         - 16: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/span_No Records Found"), 10)
+2026-05-12 15:05:50.438 DEBUG C001-Orange HRM Search - Profile Usecase - 11: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h5_System Users"), 10)
+2026-05-12 15:05:50.797 DEBUG testcase.TC001-Orange HRM Search         - 17: takeScreenshot()
+2026-05-12 15:05:50.664 DEBUG C001-Orange HRM Search - Profile Usecase - 12: takeScreenshot()
+2026-05-12 15:05:50.995 DEBUG C001-Orange HRM Search - Profile Usecase - 13: verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h5_System Users"), "System Users")
+2026-05-12 15:05:51.113 DEBUG testcase.TC001-Orange HRM Search         - 18: verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/span_No Records Found"), "No Records Found")
+2026-05-12 15:05:51.329 DEBUG testcase.TC001-Orange HRM Search         - 19: click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Leave"))
+2026-05-12 15:05:51.222 DEBUG C001-Orange HRM Search - Profile Usecase - 14: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h5_System Users"), 10)
+2026-05-12 15:05:51.439 DEBUG C001-Orange HRM Search - Profile Usecase - 15: click(findTestObject("OrangeHRM/Page_OrangeHRM/button_Search"))
+2026-05-12 15:05:51.692 DEBUG C001-Orange HRM Search - Profile Usecase - 16: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/span_No Records Found"), 10)
+2026-05-12 15:05:52.139 DEBUG testcase.TC001-Orange HRM Search         - 20: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h5_Leave List"), 10)
+2026-05-12 15:05:52.522 DEBUG C001-Orange HRM Search - Profile Usecase - 17: takeScreenshot()
+2026-05-12 15:05:52.860 DEBUG C001-Orange HRM Search - Profile Usecase - 18: verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/span_No Records Found"), "No Records Found")
+2026-05-12 15:05:53.160 DEBUG testcase.TC001-Orange HRM Search         - 21: takeScreenshot()
+2026-05-12 15:05:53.487 DEBUG testcase.TC001-Orange HRM Search         - 22: verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h5_Leave List"), "Leave List")
+2026-05-12 15:05:53.076 DEBUG C001-Orange HRM Search - Profile Usecase - 19: click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Leave"))
+2026-05-12 15:05:53.705 DEBUG testcase.TC001-Orange HRM Search         - 23: click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Time"))
+2026-05-12 15:05:53.995 DEBUG C001-Orange HRM Search - Profile Usecase - 20: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h5_Leave List"), 10)
+2026-05-12 15:05:54.528 DEBUG testcase.TC001-Orange HRM Search         - 24: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Select Employee"), 10)
+2026-05-12 15:05:55.553 DEBUG testcase.TC001-Orange HRM Search         - 25: takeScreenshot()
+2026-05-12 15:05:55.230 DEBUG C001-Orange HRM Search - Profile Usecase - 21: takeScreenshot()
+2026-05-12 15:05:55.869 DEBUG testcase.TC001-Orange HRM Search         - 26: verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Select Employee"), "Select Employee")
+2026-05-12 15:05:55.580 DEBUG C001-Orange HRM Search - Profile Usecase - 22: verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h5_Leave List"), "Leave List")
+2026-05-12 15:05:55.800 DEBUG C001-Orange HRM Search - Profile Usecase - 23: click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Time"))
+2026-05-12 15:05:56.088 DEBUG testcase.TC001-Orange HRM Search         - 27: click(findTestObject("OrangeHRM/Page_OrangeHRM/span_My Info"))
+2026-05-12 15:05:56.929 DEBUG testcase.TC001-Orange HRM Search         - 28: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Personal Details"), 10)
+2026-05-12 15:05:56.944 DEBUG C001-Orange HRM Search - Profile Usecase - 24: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Select Employee"), 10)
+2026-05-12 15:05:58.081 DEBUG C001-Orange HRM Search - Profile Usecase - 25: takeScreenshot()
+2026-05-12 15:05:58.365 DEBUG testcase.TC001-Orange HRM Search         - 29: takeScreenshot()
+2026-05-12 15:05:58.406 DEBUG C001-Orange HRM Search - Profile Usecase - 26: verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Select Employee"), "Select Employee")
+2026-05-12 15:05:58.690 DEBUG testcase.TC001-Orange HRM Search         - 30: verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Personal Details"), "Personal Details")
+2026-05-12 15:05:58.909 DEBUG testcase.TC001-Orange HRM Search         - 31: click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Maintenance"))
+2026-05-12 15:05:58.622 DEBUG C001-Orange HRM Search - Profile Usecase - 27: click(findTestObject("OrangeHRM/Page_OrangeHRM/span_My Info"))
+2026-05-12 15:05:59.708 DEBUG testcase.TC001-Orange HRM Search         - 32: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Administrator Access"), 10)
+2026-05-12 15:05:59.600 DEBUG C001-Orange HRM Search - Profile Usecase - 28: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Personal Details"), 10)
+2026-05-12 15:06:00.434 DEBUG testcase.TC001-Orange HRM Search         - 33: takeScreenshot()
+2026-05-12 15:06:00.694 DEBUG testcase.TC001-Orange HRM Search         - 34: verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Administrator Access"), "Administrator Access")
+2026-05-12 15:06:00.912 DEBUG testcase.TC001-Orange HRM Search         - 35: closeBrowser(STOP_ON_FAILURE)
+2026-05-12 15:06:01.559 DEBUG C001-Orange HRM Search - Profile Usecase - 29: takeScreenshot()
+2026-05-12 15:06:01.894 DEBUG C001-Orange HRM Search - Profile Usecase - 30: verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Personal Details"), "Personal Details")
+2026-05-12 15:06:02.111 DEBUG C001-Orange HRM Search - Profile Usecase - 31: click(findTestObject("OrangeHRM/Page_OrangeHRM/span_Maintenance"))
+2026-05-12 15:06:03.031 DEBUG C001-Orange HRM Search - Profile Usecase - 32: waitForElementPresent(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Administrator Access"), 10)
+2026-05-12 15:06:03.757 DEBUG C001-Orange HRM Search - Profile Usecase - 33: takeScreenshot()
+2026-05-12 15:06:04.045 DEBUG C001-Orange HRM Search - Profile Usecase - 34: verifyElementText(findTestObject("OrangeHRM/Page_OrangeHRM/h6_Administrator Access"), "Administrator Access")
+2026-05-12 15:06:04.260 DEBUG C001-Orange HRM Search - Profile Usecase - 35: closeBrowser(STOP_ON_FAILURE)
+2026-05-12 15:06:04.364 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OrangeHRM/TC001-Orange HRM Search - Profile Usecase
+2026-05-12 15:06:04.377 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-05-12 15:06:04.377 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS005a- Multi Profile and Browser 1
+2026-05-12 15:06:04.377 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
+2026-05-12 15:06:21.040 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OrangeHRM/TC001-Orange HRM Search
+2026-05-12 15:06:21.065 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-05-12 15:06:21.066 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS002a-Smoke Test for OrangeHRM
+2026-05-12 15:06:21.066 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

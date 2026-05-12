@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS002_Smoke Test for HealthCare,Chrome 148.0.7778.97,,,12-05-2026 14:35:30,12-05-2026 14:35:48,17.626s,PASSED
+,,,,,,,
+Test Cases/HealthCare/TC001_CureHealthCare,Chrome 148.0.7778.97,,,12-05-2026 14:35:30,12-05-2026 14:35:48,17.569s,PASSED
+"openBrowser("""")",Chrome 148.0.7778.97,,,12-05-2026 14:35:30,12-05-2026 14:35:32,2.176s,PASSED
+maximizeWindow(),Chrome 148.0.7778.97,,,12-05-2026 14:35:32,12-05-2026 14:35:33,0.400s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:33,12-05-2026 14:35:36,3.060s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/h3_We Care About Your Health""))",Chrome 148.0.7778.97,,,12-05-2026 14:35:36,12-05-2026 14:35:36,0.297s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/h3_We Care About Your Health""), ""We Care About Your Health"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:36,12-05-2026 14:35:36,0.228s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/a_btn-make-appointment""))",Chrome 148.0.7778.97,,,12-05-2026 14:35:36,12-05-2026 14:35:38,1.656s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/input_Username""))",Chrome 148.0.7778.97,,,12-05-2026 14:35:38,12-05-2026 14:35:38,0.255s,PASSED
+"setText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/input_Username_1""), ""John Doe"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:38,12-05-2026 14:35:39,0.561s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/input_Password""))",Chrome 148.0.7778.97,,,12-05-2026 14:35:39,12-05-2026 14:35:39,0.250s,PASSED
+"setEncryptedText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/input_Password_1""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:39,12-05-2026 14:35:39,0.264s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/button_btn-login""))",Chrome 148.0.7778.97,,,12-05-2026 14:35:39,12-05-2026 14:35:40,0.708s,PASSED
+delay(2),Chrome 148.0.7778.97,,,12-05-2026 14:35:40,12-05-2026 14:35:42,2.020s,PASSED
+"selectOptionByValue(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/select_Facility""), ""Hongkong CURA Healthcare Center"", false)",Chrome 148.0.7778.97,,,12-05-2026 14:35:42,12-05-2026 14:35:43,0.476s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/input_Apply for hospital readmission""))",Chrome 148.0.7778.97,,,12-05-2026 14:35:43,12-05-2026 14:35:43,0.246s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/input_radio_program_medicaid""))",Chrome 148.0.7778.97,,,12-05-2026 14:35:43,12-05-2026 14:35:43,0.246s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/input_dd_mm_yyyy""))",Chrome 148.0.7778.97,,,12-05-2026 14:35:43,12-05-2026 14:35:43,0.252s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/td_12""))",Chrome 148.0.7778.97,,,12-05-2026 14:35:43,12-05-2026 14:35:44,0.457s,PASSED
+"setText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/textarea_Comment""), ""Test Demo"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:44,12-05-2026 14:35:45,0.683s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/button_btn-book-appointment""))",Chrome 148.0.7778.97,,,12-05-2026 14:35:45,12-05-2026 14:35:45,0.246s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/label_Facility""))",Chrome 148.0.7778.97,,,12-05-2026 14:35:45,12-05-2026 14:35:45,0.699s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/label_Facility""), ""Facility"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:45,12-05-2026 14:35:46,0.216s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/p_Facility""), ""Hongkong CURA Healthcare Center"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:46,12-05-2026 14:35:46,0.218s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/label_Apply for hospital readmission""), ""Apply for hospital readmission"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:46,12-05-2026 14:35:46,0.220s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/p_Apply for hospital readmission""), ""Yes"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:46,12-05-2026 14:35:46,0.219s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/label_Healthcare Program""), ""Healthcare Program"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:46,12-05-2026 14:35:47,0.217s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/p_Healthcare Program""), ""Medicaid"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:47,12-05-2026 14:35:47,0.218s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/label_Comment""), ""Comment"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:47,12-05-2026 14:35:47,0.219s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/p_Comment""), ""Test Demo"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:47,12-05-2026 14:35:47,0.219s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/label_Visit Date""), ""Visit Date"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:47,12-05-2026 14:35:47,0.218s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/p_Visit Date""), ""12/05/2026"")",Chrome 148.0.7778.97,,,12-05-2026 14:35:47,12-05-2026 14:35:48,0.219s,PASSED
+closeBrowser(),Chrome 148.0.7778.97,,,12-05-2026 14:35:48,12-05-2026 14:35:48,0.099s,PASSED

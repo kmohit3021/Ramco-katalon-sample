@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS002_Smoke Test for HealthCare,Chrome 148.0.7778.97,,,12-05-2026 15:12:23,12-05-2026 15:12:30,7.088s,PASSED
+,,,,,,,
+Test Cases/HealthCare/TC002_CureHealthCare - First Web Application,Chrome 148.0.7778.97,,,12-05-2026 15:12:23,12-05-2026 15:12:30,7.029s,PASSED
+"openBrowser("""")",Chrome 148.0.7778.97,,,12-05-2026 15:12:24,12-05-2026 15:12:25,1.927s,PASSED
+maximizeWindow(),Chrome 148.0.7778.97,,,12-05-2026 15:12:25,12-05-2026 15:12:26,0.398s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 148.0.7778.97,,,12-05-2026 15:12:26,12-05-2026 15:12:29,2.766s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/h3_We Care About Your Health""))",Chrome 148.0.7778.97,,,12-05-2026 15:12:29,12-05-2026 15:12:29,0.295s,PASSED
+"verifyElementText(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/h3_We Care About Your Health""), ""We Care About Your Health"")",Chrome 148.0.7778.97,,,12-05-2026 15:12:29,12-05-2026 15:12:29,0.226s,PASSED
+"click(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/a_btn-make-appointment""))",Chrome 148.0.7778.97,,,12-05-2026 15:12:29,12-05-2026 15:12:30,0.532s,PASSED
+"strUsername = getAttribute(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/input_Username""), ""value"")",Chrome 148.0.7778.97,,,12-05-2026 15:12:30,12-05-2026 15:12:30,0.429s,PASSED
+G_CureUsername = strUsername,Chrome 148.0.7778.97,,,12-05-2026 15:12:30,12-05-2026 15:12:30,0.033s,PASSED
+comment(strUsername),Chrome 148.0.7778.97,,,12-05-2026 15:12:30,12-05-2026 15:12:30,0.006s,PASSED
+"strPassword = getAttribute(findTestObject(""CureHealthCare/Page_CURA Healthcare Service/input_Password""), ""value"")",Chrome 148.0.7778.97,,,12-05-2026 15:12:30,12-05-2026 15:12:30,0.220s,PASSED
+G_CurePassword = strPassword,Chrome 148.0.7778.97,,,12-05-2026 15:12:30,12-05-2026 15:12:30,0.000s,PASSED
+comment(strPassword),Chrome 148.0.7778.97,,,12-05-2026 15:12:30,12-05-2026 15:12:30,0.002s,PASSED
+closeBrowser(),Chrome 148.0.7778.97,,,12-05-2026 15:12:30,12-05-2026 15:12:30,0.092s,PASSED

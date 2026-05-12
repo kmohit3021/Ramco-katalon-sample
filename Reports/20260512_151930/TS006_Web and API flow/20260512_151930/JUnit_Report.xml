@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS006_Web and API flow" time="14.758" tests="2" passed="2" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="TS006_Web and API flow" tests="2" passed="2" failures="0" errors="0" incompleted="0" skipped="0" time="14.758" timestamp="2026-05-12T09:49:36.300Z" hostname="mohit - 192.168.29.170" id="Test Suites/TS006_Web and API flow" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_151930/TS006_Web and API flow/20260512_151930"/>
+         <property name="logFiles" value="/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_151930/TS006_Web and API flow/20260512_151930/execution0.log, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_151930/TS006_Web and API flow/20260512_151930/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[&#xa;  {&#xa;    &quot;value&quot;: &quot;https://orange.katalon.com/web/index.php/auth/login&quot;,&#xa;    &quot;isDefault&quot;: true,&#xa;    &quot;name&quot;: &quot;ApplicationUrl&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;mohit.kumar&quot;,&#xa;    &quot;isDefault&quot;: true,&#xa;    &quot;name&quot;: &quot;LoginUser&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;••••••••&quot;,&#xa;    &quot;isDefault&quot;: true,&#xa;    &quot;name&quot;: &quot;LoginPassword&quot;,&#xa;    &quot;masked&quot;: true&#xa;  }&#xa;]"/>
+         <property name="hostName" value="mohit - 192.168.29.170"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.1.3.0"/>
+         <property name="browser" value="Chrome 148.0.7778.97"/>
+         <property name="userFullName" value="Mohit Kumar"/>
+         <property name="hostAddress" value="192.168.29.170"/>
+         <property name="sessionId" value="238f2361553a5a85fbcbbe747ee2d6ff"/>
+         <property name="projectName" value="Ramco-katalon-sample"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/API/Fake Store API/TC001_Obtain JWT tokens" time="5.414" classname="Test Cases/API/Fake Store API/TC001_Obtain JWT tokens" status="PASSED">
+         <system-out><![CDATA[12-05-2026T15:19:36 - [TEST_CASE][PASSED] - Test Cases/API/Fake Store API/TC001_Obtain JWT tokens: Test Cases/API/Fake Store API/TC001_Obtain JWT tokens
+
+12-05-2026T15:19:36 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/OR_Fake Store API/Auth with JWT", ["loc_Email":"john@mail.com", "loc_Password":"changeme"])): Send request successfully
+
+12-05-2026T15:19:41 - [MESSAGE][INFO] - HAR: /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_151930/TS006_Web and API flow/20260512_151930/requests/main/Auth-with-JWT_0.har
+
+12-05-2026T15:19:41 - [MESSAGE][INFO] - cURL Command:
+curl \
+  --location \
+  --request POST \
+  --data '{"email":"john@mail.com","password":"changeme"}' \
+  --header 'Content-Type: application/json' \
+  --header 'Accept: application/json' \
+  'https://api.escuelajs.co/api/v1/auth/login'
+
+12-05-2026T15:19:41 - [MESSAGE][PASSED] - Send request successfully
+
+12-05-2026T15:19:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+12-05-2026T15:19:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-05-2026T15:19:41 - [TEST_STEP][PASSED] - access_token = getElementPropertyValue(response, "access_token"): null
+
+12-05-2026T15:19:41 - [TEST_STEP][PASSED] - println("Token: " + access_token): null
+
+12-05-2026T15:19:41 - [TEST_STEP][PASSED] - G_ACCESS_TOKEN = access_token: null
+
+12-05-2026T15:19:41 - [TEST_STEP][PASSED] - refresh_token = getElementPropertyValue(response, "refresh_token"): null
+
+12-05-2026T15:19:41 - [TEST_STEP][PASSED] - println("Refresh Token: " + refresh_token): null
+
+12-05-2026T15:19:41 - [TEST_STEP][PASSED] - G_REFRESH_TOKEN = refresh_token: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OrangeHRM/TC004-Orange HRM Search - For API" time="9.168" classname="Test Cases/OrangeHRM/TC004-Orange HRM Search - For API" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) Appli...":"https://orange.katalon.com/web/index.php/auth/login","(Default) Login...":"********"}]]></property>
+         </properties>
+         <system-out><![CDATA[12-05-2026T15:19:41 - [TEST_CASE][PASSED] - Test Cases/OrangeHRM/TC004-Orange HRM Search - For API: Test Cases/OrangeHRM/TC004-Orange HRM Search - For API
+
+12-05-2026T15:19:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-05-2026T15:19:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-05-2026T15:19:42 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-features=SafeBrowsing,PasswordLeakToggleMove, --disable-notifications]']
+
+12-05-2026T15:19:42 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+12-05-2026T15:19:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-05-2026T15:19:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-05-2026T15:19:45 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+12-05-2026T15:19:45 - [MESSAGE][PASSED] - Current window maximized
+
+12-05-2026T15:19:45 - [TEST_STEP][PASSED] - navigateToUrl("https://orange.katalon.com/web/index.php/auth/login"): Navigate to 'https://orange.katalon.com/web/index.php/auth/login' successfully
+
+12-05-2026T15:19:47 - [MESSAGE][PASSED] - Navigate to 'https://orange.katalon.com/web/index.php/auth/login' successfully
+
+12-05-2026T15:19:47 - [TEST_STEP][PASSED] - comment(G_CureUsername): 
+
+12-05-2026T15:19:47 - [MESSAGE][INFO] - 
+
+12-05-2026T15:19:47 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Username"), G_ACCESS_TOKEN): Text 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3OTM4MSwiZXhwIjoxNzgwMzA3MzgxfQ.JJiP20LA-3uRXTRa2qMMM0y-S5KFFqzQZzS9Z2m77CI' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Username'
+
+12-05-2026T15:19:49 - [MESSAGE][PASSED] - Text 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3OTM4MSwiZXhwIjoxNzgwMzA3MzgxfQ.JJiP20LA-3uRXTRa2qMMM0y-S5KFFqzQZzS9Z2m77CI' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Username'
+
+12-05-2026T15:19:49 - [TEST_STEP][PASSED] - comment(G_CurePassword): 
+
+12-05-2026T15:19:49 - [MESSAGE][INFO] - 
+
+12-05-2026T15:19:49 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM/Page_OrangeHRM/input_Password"), G_REFRESH_TOKEN): Text 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3OTM4MSwiZXhwIjoxNzc4NjE1MzgxfQ.7xhrIXTEvWefSvXCIHM3GEmR6wx8aU41CCF4Mlw1sDY' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Password'
+
+12-05-2026T15:19:50 - [MESSAGE][PASSED] - Text 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3OTM4MSwiZXhwIjoxNzc4NjE1MzgxfQ.7xhrIXTEvWefSvXCIHM3GEmR6wx8aU41CCF4Mlw1sDY' is set on object 'Object Repository/OrangeHRM/Page_OrangeHRM/input_Password'
+
+12-05-2026T15:19:50 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM/Page_OrangeHRM/button_Login")): Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+12-05-2026T15:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+12-05-2026T15:19:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-05-2026T15:19:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-05-2026T15:19:36 - [TEST_SUITE][PASSED] - TS006_Web and API flow: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

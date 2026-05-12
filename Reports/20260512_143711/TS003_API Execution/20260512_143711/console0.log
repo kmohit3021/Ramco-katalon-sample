@@ -1,0 +1,64 @@
+2026-05-12 14:37:13.493 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/org.eclipse.osgi/150/0/.cp/resources/logback/logback-execution.xml
+2026-05-12 14:37:13.494 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/mohit/git/Ramco-katalon-sample/Include/config/log.properties
+2026-05-12 14:37:13.731 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS003_API Execution
+2026-05-12 14:37:13.760 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Mohit Kumar
+2026-05-12 14:37:13.760 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Ramco-katalon-sample
+2026-05-12 14:37:13.760 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = mohit - 192.168.29.170
+2026-05-12 14:37:13.761 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-05-12 14:37:13.761 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.29.170
+2026-05-12 14:37:13.761 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.3.0
+2026-05-12 14:37:13.797 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-12 14:37:13.797 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/API/Fake Store API/TC001_Obtain JWT tokens
+2026-05-12 14:37:13.915 DEBUG testcase.TC001_Obtain JWT tokens         - 1: response = sendRequest(findTestObject("API/OR_Fake Store API/Auth with JWT", ["loc_Email":"john@mail.com", "loc_Password":"changeme"]))
+2026-05-12 14:37:14.924 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_143711/TS003_API Execution/20260512_143711/requests/main/Auth-with-JWT_0.har
+2026-05-12 14:37:14.936 INFO  c.k.k.core.webservice.common.HarLogger   - cURL Command:\ncurl \\n  --location \\n  --request POST \\n  --data '{"email":"john@mail.com","password":"changeme"}' \\n  --header 'Content-Type: application/json' \\n  --header 'Accept: application/json' \\n  'https://api.escuelajs.co/api/v1/auth/login'
+2026-05-12 14:37:14.954 DEBUG testcase.TC001_Obtain JWT tokens         - 2: verifyResponseStatusCode(response, 201)
+2026-05-12 14:37:14.960 DEBUG testcase.TC001_Obtain JWT tokens         - 3: access_token = getElementPropertyValue(response, "access_token")
+2026-05-12 14:37:14.978 DEBUG testcase.TC001_Obtain JWT tokens         - 4: println("Token: " + access_token)
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3NjgzNCwiZXhwIjoxNzgwMzA0ODM0fQ.C2zAYcGqvNpobQgndONCkyYQTDbo53Cl37IidMV6WwU
+2026-05-12 14:37:14.981 DEBUG testcase.TC001_Obtain JWT tokens         - 5: G_ACCESS_TOKEN = access_token
+2026-05-12 14:37:14.995 DEBUG testcase.TC001_Obtain JWT tokens         - 6: refresh_token = getElementPropertyValue(response, "refresh_token")
+2026-05-12 14:37:15.002 DEBUG testcase.TC001_Obtain JWT tokens         - 7: println("Refresh Token: " + refresh_token)
+Refresh Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3NjgzNCwiZXhwIjoxNzc4NjEyODM0fQ.46RbqUkHcqLKmc9rUHcwHczK6HTbKZF5ZoGaiGs8Dpc
+2026-05-12 14:37:15.003 DEBUG testcase.TC001_Obtain JWT tokens         - 8: G_REFRESH_TOKEN = refresh_token
+2026-05-12 14:37:15.004 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/API/Fake Store API/TC001_Obtain JWT tokens
+2026-05-12 14:37:15.006 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-12 14:37:15.006 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/API/Fake Store API/TC002_Retrieving user with session
+2026-05-12 14:37:15.024 DEBUG testcase.TC001_Obtain JWT tokens         - 1: response = sendRequest(findTestObject("API/OR_Fake Store API/Get user with session", ["access_token":G_ACCESS_TOKEN]))
+2026-05-12 14:37:15.260 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_143711/TS003_API Execution/20260512_143711/requests/main/Get-user-w...session_1.har
+2026-05-12 14:37:15.261 INFO  c.k.k.core.webservice.common.HarLogger   - cURL Command:\ncurl \\n  --location \\n  --header 'Accept: application/json' \\n  --header 'Content-Type: application/json' \\n  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3NjgzNCwiZXhwIjoxNzgwMzA0ODM0fQ.C2zAYcGqvNpobQgndONCkyYQTDbo53Cl37IidMV6WwU' \\n  'https://api.escuelajs.co/api/v1/auth/profile'
+2026-05-12 14:37:15.265 DEBUG testcase.TC001_Obtain JWT tokens         - 2: verifyResponseStatusCode(response, 200)
+2026-05-12 14:37:15.267 DEBUG testcase.TC001_Obtain JWT tokens         - 3: verifyElementPropertyValue(response, "email", "john@mail.com")
+2026-05-12 14:37:15.281 DEBUG testcase.TC001_Obtain JWT tokens         - 4: verifyElementPropertyValue(response, "password", "changeme")
+2026-05-12 14:37:15.290 DEBUG testcase.TC001_Obtain JWT tokens         - 5: verifyElementPropertyValue(response, "name", "Jhon")
+2026-05-12 14:37:15.298 DEBUG testcase.TC001_Obtain JWT tokens         - 6: verifyElementPropertyValue(response, "role", "customer")
+2026-05-12 14:37:15.305 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/API/Fake Store API/TC002_Retrieving user with session
+2026-05-12 14:37:15.307 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-12 14:37:15.307 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/API/Fake Store API/TC002_Retrieving User Profile
+2026-05-12 14:37:15.322 DEBUG testcase.TC001_Obtain JWT tokens         - 1: response = sendRequest(findTestObject("API/OR_Fake Store API/User Profile", ["access_token":G_ACCESS_TOKEN]))
+2026-05-12 14:37:15.558 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_143711/TS003_API Execution/20260512_143711/requests/main/User-Profile_2.har
+2026-05-12 14:37:15.560 INFO  c.k.k.core.webservice.common.HarLogger   - cURL Command:\ncurl \\n  --location \\n  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3NjgzNCwiZXhwIjoxNzgwMzA0ODM0fQ.C2zAYcGqvNpobQgndONCkyYQTDbo53Cl37IidMV6WwU' \\n  'https://api.escuelajs.co/api/v1/auth/profile'
+2026-05-12 14:37:15.564 DEBUG testcase.TC001_Obtain JWT tokens         - 2: verifyResponseStatusCode(response, 200)
+2026-05-12 14:37:15.567 DEBUG testcase.TC001_Obtain JWT tokens         - 3: verifyElementPropertyValue(response, "email", "john@mail.com")
+2026-05-12 14:37:15.579 DEBUG testcase.TC001_Obtain JWT tokens         - 4: verifyElementPropertyValue(response, "password", "changeme")
+2026-05-12 14:37:15.588 DEBUG testcase.TC001_Obtain JWT tokens         - 5: verifyElementPropertyValue(response, "name", "Jhon")
+2026-05-12 14:37:15.596 DEBUG testcase.TC001_Obtain JWT tokens         - 6: verifyElementPropertyValue(response, "role", "customer")
+2026-05-12 14:37:15.603 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/API/Fake Store API/TC002_Retrieving User Profile
+2026-05-12 14:37:15.605 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-12 14:37:15.605 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/API/Fake Store API/TC003_Refreshing Access Token
+2026-05-12 14:37:15.624 DEBUG testcase.TC003_Refreshing Access Token   - 1: response = sendRequest(findTestObject("API/OR_Fake Store API/Post Refreshing Access Token", ["ref_token":G_REFRESH_TOKEN]))
+2026-05-12 14:37:15.857 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_143711/TS003_API Execution/20260512_143711/requests/main/Post-Refr...s-Token_3.har
+2026-05-12 14:37:15.858 INFO  c.k.k.core.webservice.common.HarLogger   - cURL Command:\ncurl \\n  --location \\n  --request POST \\n  --data '{"refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3NjgzNCwiZXhwIjoxNzc4NjEyODM0fQ.46RbqUkHcqLKmc9rUHcwHczK6HTbKZF5ZoGaiGs8Dpc"}' \\n  --header 'Content-Type: application/json' \\n  'https://api.escuelajs.co/api/v1/auth/refresh-token'
+2026-05-12 14:37:15.861 DEBUG testcase.TC003_Refreshing Access Token   - 2: verifyResponseStatusCode(response, 201)
+2026-05-12 14:37:15.864 DEBUG testcase.TC003_Refreshing Access Token   - 3: access_token = getElementPropertyValue(response, "access_token")
+2026-05-12 14:37:15.874 DEBUG testcase.TC003_Refreshing Access Token   - 4: println("Token: " + access_token)
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3NjgzNSwiZXhwIjoxNzgwMzA0ODM1fQ.5Kdx3ADK2A4okY_N08m1adBdLSMWz4egWvODqJ-McgQ
+2026-05-12 14:37:15.875 DEBUG testcase.TC003_Refreshing Access Token   - 5: G_ACCESS_TOKEN = access_token
+2026-05-12 14:37:15.876 DEBUG testcase.TC003_Refreshing Access Token   - 6: refresh_token = getElementPropertyValue(response, "refresh_token")
+2026-05-12 14:37:15.885 DEBUG testcase.TC003_Refreshing Access Token   - 7: println("Refresh Token: " + refresh_token)
+Refresh Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTc3ODU3NjgzNSwiZXhwIjoxNzc4NjEyODM1fQ.J35SKwnVGsRNygf_CkYNtvQMWwmsUWoA_EeICGUDTwo
+2026-05-12 14:37:15.887 DEBUG testcase.TC003_Refreshing Access Token   - 8: G_REFRESH_TOKEN = refresh_token
+2026-05-12 14:37:15.888 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/API/Fake Store API/TC003_Refreshing Access Token
+2026-05-12 14:37:15.905 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-05-12 14:37:15.905 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS003_API Execution
+2026-05-12 14:37:15.905 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

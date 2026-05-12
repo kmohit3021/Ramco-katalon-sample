@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Visit Date</name>
+   <tag></tag>
+   <elementGuidId>a27692e0-f83c-4236-8be6-8d28a684ac30</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'visit_date']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#visit_date</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;12/05/2026&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7f1f42ea-7f25-4457-8c6c-4e7c4ca6ff88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>visit_date</value>
+      <webElementGuid>a628aa4c-ae69-41a7-b078-3e14552c3447</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>12/05/2026</value>
+      <webElementGuid>75ff0113-88f6-4512-a40f-0a9ff9c792ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-66be0a338ca5baeb5a6521ac5667e1ca</value>
+      <webElementGuid>fdd1bb41-da96-4cf8-b9a0-942b9268ec94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'visit_date']</value>
+      <webElementGuid>e4cec8d1-81fa-46df-8cc4-b2938bcfa609</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'visit_date']</value>
+      <webElementGuid>2f671beb-9013-49d0-93ed-7f885fe9647f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'visit_date' and (text() = '12/05/2026' or . = '12/05/2026')]</value>
+      <webElementGuid>a9b2b639-2521-4301-b0ef-8a90bf5afa1f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

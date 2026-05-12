@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS007_Database and UI validations" time="21.305" tests="1" passed="0" failures="0" errors="1" incompleted="0" skipped="0">
+   <testsuite name="TS007_Database and UI validations" tests="1" passed="0" failures="0" errors="1" incompleted="0" skipped="0" time="21.305" timestamp="2026-05-12T10:02:22.016Z" hostname="mohit - 192.168.29.170" id="Test Suites/TS007_Database and UI validations" status="ERROR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_153214/TS007_Database and UI validations/20260512_153214"/>
+         <property name="logFiles" value="/Users/mohit/git/Ramco-katalon-sample/Reports/20260512_153214/TS007_Database and UI validations/20260512_153214/execution0.log, /Users/mohit/git/Ramco-katalon-sample/Reports/20260512_153214/TS007_Database and UI validations/20260512_153214/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mohit - 192.168.29.170"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.1.3.0"/>
+         <property name="dbServerInfo" value="PostgreSQL 14.5"/>
+         <property name="userFullName" value="Mohit Kumar"/>
+         <property name="sessionId" value="ac1dcbc47b2bc93bd981f1bb4d3d7158"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="browser" value="Chrome 148.0.7778.97"/>
+         <property name="hostAddress" value="192.168.29.170"/>
+         <property name="projectName" value="Ramco-katalon-sample"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+      </properties>
+      <testcase name="Test Cases/Database/DBMS/DBMS GUI to DB verification" time="21.155" classname="Test Cases/Database/DBMS/DBMS GUI to DB verification" status="ERROR">
+         <error type="ERROR" message="Test Cases/Database/DBMS/DBMS GUI to DB verification FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.runtime.InvokerInvocationException: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.&#xa;	at com.katalon.plugin.keyword.connection.ResultSetKeywords.invokeMethod(ResultSetKeywords.groovy)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:55)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0512_36.run(S0512_36.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.&#xa;	at org.postgresql.jdbc.PgResultSet.checkColumnIndex(PgResultSet.java:3274)&#xa;	at org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:3296)&#xa;	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2393)&#xa;	at java_sql_ResultSet$getString$3.call(Unknown Source)&#xa;	at com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(ResultSetKeywords.groovy:56)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	... 16 more&#xa;"/>
+         <system-out><![CDATA[12-05-2026T15:32:22 - [TEST_CASE][ERROR] - Test Cases/Database/DBMS/DBMS GUI to DB verification: Test Cases/Database/DBMS/DBMS GUI to DB verification FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.invokeMethod(ResultSetKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0512_36.run(S0512_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at org.postgresql.jdbc.PgResultSet.checkColumnIndex(PgResultSet.java:3274)
+	at org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:3296)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2393)
+	at java_sql_ResultSet$getString$3.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(ResultSetKeywords.groovy:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 16 more
+
+
+12-05-2026T15:32:22 - [TEST_STEP][PASSED] - globalConnection = : null
+
+12-05-2026T15:32:22 - [TEST_STEP][PASSED] - rs = : null
+
+12-05-2026T15:32:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-05-2026T15:32:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-05-2026T15:32:22 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-features=SafeBrowsing,PasswordLeakToggleMove, --disable-notifications]']
+
+12-05-2026T15:32:22 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+12-05-2026T15:32:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-05-2026T15:32:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-05-2026T15:32:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.w3schools.com/html/html_tables.asp"): Navigate to 'https://www.w3schools.com/html/html_tables.asp' successfully
+
+12-05-2026T15:32:28 - [MESSAGE][PASSED] - Navigate to 'https://www.w3schools.com/html/html_tables.asp' successfully
+
+12-05-2026T15:32:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+12-05-2026T15:32:29 - [MESSAGE][PASSED] - Current window maximized
+
+12-05-2026T15:32:29 - [TEST_STEP][PASSED] - globalConnection = com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection(): com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection is PASSED
+
+12-05-2026T15:32:29 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConnection is PASSED
+
+12-05-2026T15:32:29 - [TEST_STEP][PASSED] - rs = com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery(globalConnection, "select * from katalontesttable"): com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery is PASSED
+
+12-05-2026T15:32:29 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery is PASSED
+
+12-05-2026T15:32:29 - [TEST_STEP][PASSED] - out.println("Result Set----->>" + rs): null
+
+12-05-2026T15:32:29 - [TEST_STEP][PASSED] - rowno = com.katalon.plugin.keyword.connection.ResultSetKeywords.getRowCount(rs): com.katalon.plugin.keyword.connection.ResultSetKeywords.getRowCount is PASSED
+
+12-05-2026T15:32:29 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.ResultSetKeywords.getRowCount is PASSED
+
+12-05-2026T15:32:29 - [TEST_STEP][PASSED] - out.println("Row count----->>" + rowno): null
+
+12-05-2026T15:32:29 - [TEST_STEP][PASSED] - colno = com.katalon.plugin.keyword.connection.ResultSetKeywords.getColumnCount(rs): com.katalon.plugin.keyword.connection.ResultSetKeywords.getColumnCount is PASSED
+
+12-05-2026T15:32:29 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.ResultSetKeywords.getColumnCount is PASSED
+
+12-05-2026T15:32:29 - [TEST_STEP][PASSED] - out.println("Column count----->>" + colno): null
+
+12-05-2026T15:32:29 - [TEST_STEP][PASSED] - rowValue = com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleRowValue(rs, 2): com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleRowValue is PASSED
+
+12-05-2026T15:32:29 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleRowValue is PASSED
+
+12-05-2026T15:32:29 - [TEST_STEP][PASSED] - out.println("Row value----->>" + rowValue): null
+
+12-05-2026T15:32:29 - [TEST_STEP][ERROR] - for ([i = 1, i <= rowno, (i++)]): Test Cases/Database/DBMS/DBMS GUI to DB verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:102)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0512_36.run(S0512_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.invokeMethod(ResultSetKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1763649606595.run(Script1763649606595.groovy:55)
+	... 13 more
+Caused by: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at org.postgresql.jdbc.PgResultSet.checkColumnIndex(PgResultSet.java:3274)
+	at org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:3296)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2393)
+	at java_sql_ResultSet$getString$3.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(ResultSetKeywords.groovy:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.invokeMethod(ResultSetKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:55)
+	... 13 more
+
+
+12-05-2026T15:32:29 - [TEST_STEP][ERROR] - for ([j = 1, j <= rowno, (j++)]): Test Cases/Database/DBMS/DBMS GUI to DB verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:102)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0512_36.run(S0512_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.invokeMethod(ResultSetKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1763649606595.run(Script1763649606595.groovy:55)
+	... 13 more
+Caused by: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at org.postgresql.jdbc.PgResultSet.checkColumnIndex(PgResultSet.java:3274)
+	at org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:3296)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2393)
+	at java_sql_ResultSet$getString$3.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(ResultSetKeywords.groovy:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.invokeMethod(ResultSetKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:55)
+	... 13 more
+
+
+12-05-2026T15:32:29 - [TEST_STEP][PASSED] - valGUI = getText(webKeywords.ApplicationFunction.GetTableValue(i + 1, j)): Text of object '' is: 'Alfreds Futterkiste'
+
+12-05-2026T15:32:29 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.GetTableValue is PASSED
+
+12-05-2026T15:32:30 - [MESSAGE][PASSED] - Text of object '' is: 'Alfreds Futterkiste'
+
+12-05-2026T15:32:30 - [TEST_STEP][PASSED] - valDB = com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(rs, i, j): com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+12-05-2026T15:32:30 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+12-05-2026T15:32:30 - [TEST_STEP][PASSED] - logInfo("GUI Value is:- " + valGUI + ", DB Value is:- " + valDB): GUI Value is:- Alfreds Futterkiste, DB Value is:- John Doe
+
+12-05-2026T15:32:30 - [MESSAGE][INFO] - GUI Value is:- Alfreds Futterkiste, DB Value is:- John Doe
+
+12-05-2026T15:32:30 - [TEST_STEP][WARNING] - verifyEqual(valDB, valGUI, OPTIONAL): Unable to verify equal between actual object 'John Doe' and expected object 'Alfreds Futterkiste' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'John Doe' and expected object 'Alfreds Futterkiste' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0512_36.run(S0512_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+12-05-2026T15:32:30 - [MESSAGE][WARNING] - Unable to verify equal between actual object 'John Doe' and expected object 'Alfreds Futterkiste' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'John Doe' and expected object 'Alfreds Futterkiste' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0512_36.run(S0512_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+12-05-2026T15:32:30 - [TEST_STEP][PASSED] - valGUI = getText(webKeywords.ApplicationFunction.GetTableValue(i + 1, j)): Text of object '' is: 'Maria Anders'
+
+12-05-2026T15:32:30 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.GetTableValue is PASSED
+
+12-05-2026T15:32:31 - [MESSAGE][PASSED] - Text of object '' is: 'Maria Anders'
+
+12-05-2026T15:32:31 - [TEST_STEP][PASSED] - valDB = com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(rs, i, j): com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+12-05-2026T15:32:31 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+12-05-2026T15:32:31 - [TEST_STEP][PASSED] - logInfo("GUI Value is:- " + valGUI + ", DB Value is:- " + valDB): GUI Value is:- Maria Anders, DB Value is:- ThisIsNotAPassword
+
+12-05-2026T15:32:31 - [MESSAGE][INFO] - GUI Value is:- Maria Anders, DB Value is:- ThisIsNotAPassword
+
+12-05-2026T15:32:31 - [TEST_STEP][WARNING] - verifyEqual(valDB, valGUI, OPTIONAL): Unable to verify equal between actual object 'ThisIsNotAPassword' and expected object 'Maria Anders' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'ThisIsNotAPassword' and expected object 'Maria Anders' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0512_36.run(S0512_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+12-05-2026T15:32:31 - [MESSAGE][WARNING] - Unable to verify equal between actual object 'ThisIsNotAPassword' and expected object 'Maria Anders' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'ThisIsNotAPassword' and expected object 'Maria Anders' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0512_36.run(S0512_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+12-05-2026T15:32:31 - [TEST_STEP][PASSED] - valGUI = getText(webKeywords.ApplicationFunction.GetTableValue(i + 1, j)): Text of object '' is: 'Germany'
+
+12-05-2026T15:32:31 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.GetTableValue is PASSED
+
+12-05-2026T15:32:32 - [MESSAGE][PASSED] - Text of object '' is: 'Germany'
+
+12-05-2026T15:32:32 - [TEST_STEP][PASSED] - valDB = com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(rs, i, j): com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+12-05-2026T15:32:32 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue is PASSED
+
+12-05-2026T15:32:32 - [TEST_STEP][PASSED] - logInfo("GUI Value is:- " + valGUI + ", DB Value is:- " + valDB): GUI Value is:- Germany, DB Value is:- TEST
+
+12-05-2026T15:32:32 - [MESSAGE][INFO] - GUI Value is:- Germany, DB Value is:- TEST
+
+12-05-2026T15:32:32 - [TEST_STEP][WARNING] - verifyEqual(valDB, valGUI, OPTIONAL): Unable to verify equal between actual object 'TEST' and expected object 'Germany' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'TEST' and expected object 'Germany' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0512_36.run(S0512_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+12-05-2026T15:32:32 - [MESSAGE][WARNING] - Unable to verify equal between actual object 'TEST' and expected object 'Germany' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'TEST' and expected object 'Germany' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0512_36.run(S0512_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+12-05-2026T15:32:32 - [TEST_STEP][PASSED] - valGUI = getText(webKeywords.ApplicationFunction.GetTableValue(i + 1, j)): Text of object '' is: 'Germany'
+
+12-05-2026T15:32:32 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.GetTableValue is PASSED
+
+12-05-2026T15:32:43 - [MESSAGE][WARNING] - The current locator of test object '' was broken. Propose an alternative one: '//table[@id='customers']/tbody/tr[2]/td[3]'.
+
+12-05-2026T15:32:43 - [MESSAGE][PASSED] - Text of object '' is: 'Germany'
+
+12-05-2026T15:32:43 - [TEST_STEP][ERROR] - valDB = com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(rs, i, j): Test Cases/Database/DBMS/DBMS GUI to DB verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:102)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0512_36.run(S0512_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.invokeMethod(ResultSetKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1763649606595.run(Script1763649606595.groovy:55)
+	... 13 more
+Caused by: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at org.postgresql.jdbc.PgResultSet.checkColumnIndex(PgResultSet.java:3274)
+	at org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:3296)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2393)
+	at java_sql_ResultSet$getString$3.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(ResultSetKeywords.groovy:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.invokeMethod(ResultSetKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:55)
+	... 13 more
+
+
+12-05-2026T15:32:43 - [MESSAGE][ERROR] - org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+
+12-05-2026T15:32:43 - [MESSAGE][ERROR] - Test Cases/Database/DBMS/DBMS GUI to DB verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:102)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0512_36.run(S0512_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.invokeMethod(ResultSetKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1763649606595.run(Script1763649606595.groovy:55)
+	... 13 more
+Caused by: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at org.postgresql.jdbc.PgResultSet.checkColumnIndex(PgResultSet.java:3274)
+	at org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:3296)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2393)
+	at java_sql_ResultSet$getString$3.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(ResultSetKeywords.groovy:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.invokeMethod(ResultSetKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:55)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[12-05-2026T15:32:22 - [TEST_CASE][ERROR] - Test Cases/Database/DBMS/DBMS GUI to DB verification: Test Cases/Database/DBMS/DBMS GUI to DB verification FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.invokeMethod(ResultSetKeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at DBMS GUI to DB verification.run(DBMS GUI to DB verification:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0512_36.run(S0512_36.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.postgresql.util.PSQLException: The column index is out of range: 4, number of columns: 3.
+	at org.postgresql.jdbc.PgResultSet.checkColumnIndex(PgResultSet.java:3274)
+	at org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:3296)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2393)
+	at java_sql_ResultSet$getString$3.call(Unknown Source)
+	at com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue(ResultSetKeywords.groovy:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 16 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-05-2026T15:32:22 - [TEST_SUITE][ERROR] - TS007_Database and UI validations: null]]></system-out>
+      <system-err><![CDATA[12-05-2026T15:32:22 - [TEST_SUITE][ERROR] - TS007_Database and UI validations: null]]></system-err>
+   </testsuite>
+</testsuites>
